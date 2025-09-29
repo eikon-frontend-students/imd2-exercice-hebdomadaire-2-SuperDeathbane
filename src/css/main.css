@@ -3,9 +3,57 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;
+  background: #E9E9E9;
+}
+.top-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px 30px;
+  background:#fff ;
+  border-radius: 32px;
+}
+.tools{
+  display: flex;
+  flex-direction: row;
+}
 a {
+  text-decoration: none;
   color: inherit;
+}
+
+.tools {
+  display: flex;
+  gap: 10px;
+}
+
+.tools .button {
+  background-color: #fff;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools .button img {
+  width: 50%; 
+  height: auto;
 }
 
 img,
